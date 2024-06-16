@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <router-view/>
+  <div class="text-red-500">
+    NEW PROJECT
   </div>
 </template>
 
