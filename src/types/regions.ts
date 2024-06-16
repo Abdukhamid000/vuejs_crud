@@ -11,8 +11,8 @@ export interface IRegion {
     _id: string
     name: IRegionName
     isActive: boolean
-    createdAt: boolean
-    updatedAt: boolean
+    createdAt: string
+    updatedAt: string
 }
 
 export interface IRegionResForm {
