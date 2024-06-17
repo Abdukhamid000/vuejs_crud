@@ -1,4 +1,4 @@
-import {IRes} from "@/types/index.ts";
+import type {IRes} from "./index";
 
 export interface IRegionName {
     uz: string
