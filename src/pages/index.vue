@@ -28,7 +28,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr v-for="item of regions">
+        <tr v-for="item of regions" :key="item._id">
 
           <td>{{ item.name.uz }}</td>
           <td>{{ item.name.ru }}</td>
